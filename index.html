@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/simple-lightbox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <div>
+                        <h2 class="logo">Steven Riady</h2>
+                    </div>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Showcase  -->
+    <main id="showcase">
+        <div class="container">
+            <div class="main-showcase">
+                <p>based in Medan</p>
+                <h2>Hello. My name is Steven Riady. I am UI/UX Designer</h2>
+
+                <a href="#" class="btn">Contact Me</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Portfolio  -->
+    <section id="portfolio">
+        <div class="container">
+            <h2>My Portfolio</h2>
+            <div class="gallery">
+                <a href="images/portfolio1.jpg" class="big"><img src="images/portfolio1.jpg" alt=""></a>
+                <a href="images/portfolio2.jpg" class="big"><img src="images/portfolio2.jpg" alt=""></a>
+                <a href="images/portfolio4.jpg" class="big"><img src="images/portfolio4.jpg" alt=""></a>
+                <a href="images/portfolio4.jpg" class="big"><img src="images/portfolio4.jpg" alt=""></a>
+                <a href="images/portfolio5.jpg" class="small"><img src="images/portfolio5.jpg" alt=""></a>
+                <a href="images/portfolio2.jpg" class="big"><img src="images/portfolio2.jpg" alt=""></a>
+                <a href="images/portfolio10.jpg" class="big"><img src="images/portfolio10.jpg" alt=""></a>
+                <a href="images/portfolio8.jpg" class="big"><img src="images/portfolio8.jpg" alt=""></a>
+                <a href="images/portfolio9.jpg" class="big"><img src="images/portfolio9.jpg" alt=""></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>Copyright 2020. All Right Reserved. by Steven Riady</p>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="lightboxjs/simple-lightbox.min.js"></script>
+
+    <script>
+        (function () {
+            var $gallery = new SimpleLightbox('.gallery a', {});
+        })();
+    </script>
+</body>
+
+</html>
